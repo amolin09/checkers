@@ -1,7 +1,11 @@
 .black-space{
+    display: flex;
     width: 100px;
     height: 100px;
     background-color: black;
     border: solid 1px black;
-    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
 }
