@@ -1,10 +1,8 @@
 import "./BlackSpace.css"
 import CircleIcon from "@mui/icons-material/Circle"
 
-export default function BlackSpace({status, xCoord, yCoord, handleSelection}){
+export default function BlackSpace({status, handleSelection}){
 
-    const xPos = xCoord;
-    const yPos = yCoord;
 
     let pieceColor = "";
     if(status === 2 || status === 4){
