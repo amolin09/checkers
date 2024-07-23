@@ -7,8 +7,8 @@
 
 .board{
     border: solid 12px black;
-    height: 816px;
-    width: 816px;
+    height: 810px;
+    width: 811px;
     display: flex;
     flex-wrap: wrap;
 }

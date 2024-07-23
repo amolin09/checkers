@@ -1,7 +1,7 @@
 import "./BlackSpace.css"
 import CircleIcon from "@mui/icons-material/Circle"
 
-export default function BlackSpace({status, handleSelection}){
+export default function BlackSpace({status, handlePlaceholderSelection}){
 
 
     let pieceColor = "";
@@ -17,7 +17,7 @@ export default function BlackSpace({status, handleSelection}){
 
 
     return(
-        <div className="black-space" onClick={handleSelection}>
+        <div className="black-space" onClick={handlePlaceholderSelection}>
             <div className="piece-container">
                 {status > 1? <CircleIcon
                 sx={{color: pieceColor, 
